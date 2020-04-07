@@ -166,7 +166,8 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  height: 45px;
+  height: 90px;
+  width: 150px;
 }
 
 /*--------------------------------------------------------------
@@ -1090,6 +1091,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #18d26e;
 }
 
+#clients .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid rgb(12, 0, 180);
+  color: rgb(12, 0, 180);
+}
+
+#clients .cta-btn:hover {
+  background: #188ed2;
+  border: 2px solid #188ed2;
+}
 /* Testimonials Section
 --------------------------------*/
 
@@ -1681,3 +1701,4 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
